@@ -11,7 +11,7 @@ export const Navbar = () => {
       <nav className='Nav-section'>
         <ul className='Nav_contain'>
           <li>
-            <span><HiHome />Home</span>
+            <span className='active'><HiHome />Home</span>
             <span>About Us</span>
             <span>Our Service</span>
             <span>Contact</span>

@@ -5,9 +5,10 @@
   align-items: center;
   justify-content: space-around;
   background-color: #678283;
+  position: static;
 }
 .Nav_logo img{
-  width: 100px;
+  width: 70px;
 }
 
 .Nav_contain li{
@@ -19,4 +20,11 @@
   justify-content: space-between;
   gap: 3.5rem;
   color: #fff;
+}
+.Nav_contain span{
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.active{
+  border-bottom: 2px solid #eee;
 }
