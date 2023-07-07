@@ -6,23 +6,81 @@
   justify-content: center;
   padding: 30px;
 }
-.ocus_contain{
-  width: 100%;
-  height: 100%;
-  display: flex;
-  grid-template-columns: repeat(3, 4fr);
-}
+
 .Focus_phase{
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 3rem;
+  padding: 30px;
 }
 .Focus_phase_1{
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 3rem;
 }
 .Focus_title{
-  width: 500px;
+  width: 600px;
   padding: 40px;
+
+}
+.Focus_section{
+  max-width: 700px;
+  height: 300px;
+  box-sizing: border-box;
+  font-size: 20px;
+  background-color: #003c64;
+  border-radius: 20px;
+  color: #ffff;
+  padding: 20px;
+}
+.Focus_section h2{
+  padding: 20px 0;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.Focus_section_1{
+  font-size: 20px;
+  max-width: 100%;
+  height: 50%;
+  background-color: #e3dfd6;
+  border-radius: 20px;
+  color: #000000;
+  padding: 20px;
+}
+.Focus_section_1 h2{
+  font-size: 30px;
+  padding: 20px 0;
+  text-transform: uppercase;
+}
+.Focus_section_2{
+  max-width: 700px;
+  height: 300px;
+  box-sizing: border-box;
+  font-size: 20px;
+  background-color: #e3dfd6;
+  border-radius: 20px;
+  color: #000000;
+  padding: 20px;
+}
+.Focus_section_2 h2{
+  font-size: 30px;
+  padding: 20px 0;
+  text-transform: uppercase;
+}
+.Focus_section_3{
+  font-size: 20px;
+  max-width: 50%;
+  height: 50%;
+  background-color: #003c64;
+  border-radius: 20px;
+  color: #fff;
+  padding: 20px;
+}
+.Focus_section_3 h2{
+  font-size: 22px;
+  padding: 20px 0;
+  text-transform: uppercase;
 }
