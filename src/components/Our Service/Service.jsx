@@ -14,7 +14,7 @@ export const Service = () => {
         </div>
 
         <ul className='Serivce_title'>
-          <div >
+          <div className='Service_body'>
             <li>Legal consultation and advice</li>
             <li>Contract drafting and review</li>
             <li>Representation in court proceedings</li>
@@ -22,7 +22,7 @@ export const Service = () => {
             <li>Legal research and analysis</li>
             <li>Legal consultation and advice</li>
           </div>
-          <div>
+          <div className='Service_body'>
             <li>Document preparation and filing</li>
             <li>Due diligence and legal opinions</li>
             <li>Intellectual property protection</li>
@@ -32,13 +32,13 @@ export const Service = () => {
             <li>Family law matters (divorce, child custody, adoption, etc.)</li>
             <li>Employment law guidance (discrimination, harassment, wrongful termination, etc.)</li>
           </div>
-          <div>
+          <div className='Service_body'>
             <li>Business formation and corporate law</li>
             <li>Real estate transactions and property law</li>
             <li>Personal injury claims</li>
             <li>Tax planning and dispute resolution</li>
           </div>
-          <div>
+          <div className='Service_body'>
             <li>Control and ownership of cryptoassets</li>
             <li> Tracing cryptoassets</li>
             <li>Fraud relating to cryptoassets</li>

@@ -1,0 +1,28 @@
+.Focus_main{
+  max-width: 1700px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+.ocus_contain{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  grid-template-columns: repeat(3, 4fr);
+}
+.Focus_phase{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Focus_phase_1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Focus_title{
+  width: 500px;
+  padding: 40px;
+}
