@@ -1,23 +1,17 @@
-import { About } from "./components/About/About"
-import { Body } from "./components/Body/Body"
-import { Focus } from "./components/Focus/Focus"
-import { Navbar } from "./components/Navbar/Navbar"
-import { Service } from "./components/Our Service/Service"
-import { Testimonial } from "./components/Testimonial/Testimonial"
-import {Footer} from "./components/Footer/Footer";
-
+import { Routes, Route, BrowserRouter } from "react-router-dom";
+import { Contact } from "./pages/Contact";
+import Home from "./pages/Home";
 
 function App() {
 
   return (
     <div>
-      <Navbar />
-      <Body />
-      <About />
-      <Focus />
-      <Service />
-      <Testimonial />
-      <Footer />
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   )
 }
