@@ -11,8 +11,6 @@ export const Content = () => {
           </div>
           <div className="ContentInfo">
             <article className='ContentIntro'>
-              <h2>Your Lawyer</h2>
-              Introduction:
               <br/>
               <br/>
               Paul Holm is an experienced and highly trained attorney who works at Paul Holm Chambers, a reputable law firm in London. With a strong dedication to providing superior legal services, Paul Holm and the company have established a solid reputation for their competence, professionalism, and client-centered approach.
